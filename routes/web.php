@@ -33,6 +33,19 @@ Route::get('/bb/b1',function (){
 
 });
 
+
 Route::get('/aa/a2',function (){
     return view('aa.a2');
 });
+
+Route::get('/cc/c2', function () {
+    return view('cc.c2');
+});
+
+Route::get('/bb/b2',function (){
+    return view('bb.b2');
+});
+
+
+
+
