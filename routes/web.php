@@ -33,3 +33,6 @@ Route::get('/bb/b1',function (){
 
 });
 
+Route::get('/aa/a2',function (){
+    return view('aa.a2');
+});
